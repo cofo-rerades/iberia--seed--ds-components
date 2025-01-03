@@ -25,11 +25,11 @@
     "storybook:build": "tsc && npm run analyze -- --exclude dist && storybook build"
   },
   "dependencies": {
-    "@eslint/compat": "^1.2.4",
     "lit": "^3.2.1"
   },
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "^0.10.4",
+    "@eslint/compat": "^1.2.4",
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.17.0",
     "@open-wc/eslint-config": "^12.0.3",
@@ -48,6 +48,7 @@
     "concurrently": "^9.1.2",
     "eslint": "^9.17.0",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-html": "^8.1.2",
     "husky": "^9.1.7",
     "lint-staged": "^15.3.0",
     "prettier": "^3.4.2",
