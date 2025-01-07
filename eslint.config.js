@@ -42,7 +42,7 @@ const config = [
       'import/no-extraneous-dependencies': [
         'error',
         {
-          devDependencies: ['**/*.test.ts', '**/*.config.js', '**/*.spec.js'],
+          devDependencies: ['**/*.test.ts', '**/*.config.js', '**/*.spec.ts'],
         },
       ],
       'no-unused-vars': 'off',
